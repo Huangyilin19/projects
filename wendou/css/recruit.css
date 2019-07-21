@@ -1,0 +1,172 @@
+.sidebar {
+	bottom: 11px;
+}
+
+.sidebar dl {
+	padding-bottom: 18px;
+}
+
+.content {
+	padding-top: 25px;
+	padding-left: 50px;
+	float: left;
+	font-size: 14px;
+}
+
+.content .top {
+	position: relative;
+	border-bottom: 1px solid rgb(229, 229, 229);
+	padding-bottom: 10px;
+	margin-bottom: 28px;
+}
+
+.content .top h3 {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.content .top h3:before {
+	content: "";
+	background: url(../img/bg_blue.jpg) no-repeat;
+	width: 4px;
+	height: 18px;
+	position: relative;
+	top: 3px;
+	border-radius: 1px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.top span {
+	color: #818181;
+}
+
+.top li {
+	color: #999;
+	display: inline-block;
+}
+
+.top a {
+	color: #999;
+}
+
+.top li:after {
+	content: '>';
+	margin-left: 6px;
+}
+
+.top li:last-child:after {
+	display: none;
+}
+
+.content .title {
+	color: rgb(22, 71, 161);
+}
+
+.content .title:before {
+	content: '';
+	width: 11px;
+	height: 11px;
+	background: url(../img/recruit/circle-icon.png);
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.content .subtitle {
+	color: #666;
+	line-height: 24px;
+}
+
+.content .subtitle:before {
+	content: '- ';
+}
+
+.part1 {
+	padding-top: 20px;
+	padding-bottom: 28px;
+	margin-right: 52px;
+	width: 640px;
+}
+
+.part1 .left {
+	width: 308px;
+}
+
+.part1 ul {
+	margin-top: 12px;
+}
+
+.part1 .left li {
+	width: 108px;
+	height: 100px;
+	display: inline-block;
+	border: 8px solid rgb(218, 223, 231);
+	position: relative;
+	padding: 8px;
+	margin-bottom: 15px;
+}
+
+.part1 li:nth-child(odd) {
+	margin-right: 15px;
+}
+
+.part1 li:hover {
+	box-shadow: 0 0 10px #ccc;
+}
+
+.part1 .left h6 {
+	padding-bottom: 8px;
+}
+
+.part1 .left p {
+	width: 80px;
+	font-size: 11px;
+	float: left;
+}
+
+.left li img {
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.part1 .right {
+	padding-top: 12px;
+}
+
+.part1 .right img {
+	height: 280px;
+}
+
+.part2 li {
+	float: left;
+}
+
+.part2 li:after {
+	content: ' ';
+	display: inline-block;
+	width: 20px;
+	height: 3px;
+	background: rgb(229, 229, 229);
+	position: relative;
+	bottom: 60px;
+}
+
+.part2 li:last-child::after {
+	display: none;
+}
+
+.part3 {
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.part3 button {
+	margin-top: 15px;
+	background: transparent;
+	width: 142px;
+	height: 24px;
+	outline: none;
+}

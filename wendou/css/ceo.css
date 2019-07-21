@@ -1,0 +1,87 @@
+.sidebar{
+    top: -11px;
+}
+.sidebar dl{
+    padding-bottom: 23px;
+}
+.mid{
+    display: flex;
+    padding-top: 28px;
+}
+.left-img{
+    border-radius: 10px;
+    background: linear-gradient(to bottom,rgb(248,248,248),rgb(225,225,225));
+}
+.left-img img{
+    display: block;
+}
+.left-img img:first-child{
+    margin: 16px 20px;
+}
+.right{
+    flex: 1;
+    padding-left: 32px;
+    padding-right: 22px;
+    position: relative;
+}
+.right h3{
+    font-size: 20px;
+    margin-bottom:24px; 
+}
+.right h3 span{
+    color:rgb(22, 71, 161)
+}
+.right h5{
+    font-size: 24px;
+}
+.right h5:last-of-type{
+    margin-bottom: 16px;
+}
+.right p{
+    font-size: 12px;
+    margin-bottom: 42px;
+}
+.name h1{
+    margin-left: 15px;
+    display: inline-block;
+    font-weight: 500;
+}
+.name{
+    position: absolute;
+    right: 34px;
+    bottom: 0;
+}
+.content .bottom{
+    margin-top: 42px;
+    border: 1px solid rgb(205, 204, 204);
+    border-radius: 5px;
+    display: flex;
+    padding: 20px 0 20px 16px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.content .bottom ul{
+    flex: 1;
+    margin-right: 150px;
+}
+.content .bottom li{
+    padding-bottom: 12px;
+    color: rgb(102, 102, 102)
+}
+.content .bottom li:last-child{
+    padding-bottom: 0;
+}
+.content .bottom li img{
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.content .bottom li span{
+    width: 69px;
+    color:#333;
+    display: inline-block;
+}
+.content .bottom>img{
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+}

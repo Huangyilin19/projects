@@ -1,0 +1,172 @@
+/*页面样式*/
+/*①首页*/
+.main{
+	padding-top: 22px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+.sidebar ul{
+	padding-bottom:75px;
+}
+.left,.middle,.right{
+	width: 330px;
+	float: left;
+	vertical-align: top;
+}
+.left,.middle{
+	padding-right: 5px;
+}
+.left .topnav{
+}
+.topnav li{
+    width: 66px;
+    height: 22px;
+    font-size: 12px;
+    padding-top: 7px;
+    border: 1px solid #ccc;
+    text-align: center;
+    float: left;
+}
+.topnav .active{
+	background: white;
+	border-bottom: none;
+}
+.topnav li:first-child{
+	border-right: none;
+}
+.topnav li:last-child{
+	background: linear-gradient(to bottom,#fff ,rgb(241,241,241));
+}
+.more{
+	border-bottom: 1px solid #ccc;
+	height: 30px;
+	width: 190px;
+}
+.left .articles{
+	list-style: square;
+	padding-left: 20px;
+	padding-bottom: 18px;
+	font-size: 12px;
+}
+.left .articles li{
+	padding-top: 8px;
+	color: #666;
+}
+.left li a{
+	color: #666;
+}
+
+.blue-link{
+	color: rgb(137,161,205);
+}
+.img{
+	border: 1px solid rgb(204,204,204);
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.img li{
+	/*width: 33.33%;*/
+	float: left;
+	border-right: url(img/border.jpg);
+	height: 49px;
+}
+.img .border{
+	position: relative;
+	bottom: 5px;
+	padding-left:  6px;
+	padding-right: 3px;
+}
+.word{
+	text-align: center;
+	float: left;
+	padding: 6px 2px;
+}
+.word p{
+	color: #13449f ;
+}
+.middle .top{
+}
+.middle .btn{
+	position:relative ;
+	margin-top: 42px;
+}
+.middle .top-content{
+	width: 315px;
+	height: 104px;
+	margin: auto;
+	border: 1px solid rgb(231,231,231);
+	background: linear-gradient(to bottom,#fff,#f1f1f1);
+}
+.top-content img:first-child{
+	margin-top: 22px;
+}
+.top-content .asa{
+	padding-top: 25px;
+	height: 100%;
+	text-align: center;
+}
+.asa h3{
+	color: rgb(19,68,159);
+	margin-bottom: 5px;
+}
+.asa p{
+	color: rgb(126,126,126);
+	line-height: 16px;
+}
+.asa a{
+	position: relative;
+	bottom: 30px;
+}
+.middle .bottom{
+	padding-left: 18px;
+}
+.bottom li{
+	float: left;
+	width: 155px;
+	vertical-align: top;
+}
+.bottom div{
+	padding-left: 10px;
+	width: 72px;
+}
+.bottom li:first-child::after{
+	content: '';
+	width: 3px;
+	height: 55px;
+	background: url(../img/border.jpg) no-repeat top center;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.right h6{
+	color: #13449F;
+}
+.right div{
+	padding: 6px 15px;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.right div p{
+	color: #333;
+}
+.right .top{
+	border: 1px solid rgb(204,204,204);
+	padding: 7px 9px 7px 16px;
+	margin-bottom: 12px;
+	background: url(../img/bg.jpg) 100% repeat-x;
+	width: 300px;
+}
+.right .title{
+	display: inline-block;
+}
+.right-icon{
+	float: right;
+	vertical-align: middle;
+}
+.right .top span:first-of-type{
+	margin-right:16px; 
+}
+/*②登录页*/
+/*③注册页*/
+/*④产品页*/
+/*⑤产品详情页*/
